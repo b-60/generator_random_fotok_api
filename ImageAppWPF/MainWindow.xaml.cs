@@ -90,7 +90,7 @@ namespace ImageAppWPF
                     TxtStatus.Text = "Ошибка сохранения.";
                     MessageBox.Show($"Не удалось сохранить файл.\nОшибка: {ex.Message}",
                         "Ошибка диска", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
+                }ы
             }
         }
     }
